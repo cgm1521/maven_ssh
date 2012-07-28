@@ -48,5 +48,8 @@
 		</property>
 	</bean>
 
-	<!-- <import resource="classpath:config/spring/spring-ws-eip.xml" /> -->
+	<import resource="classpath:config/applicationContext-action.xml" />
+	<import resource="classpath:config/applicationContext-dao.xml" />
+	<import resource="classpath:config/applicationContext-quartz.xml" />
+	<import resource="classpath:config/applicationContext-service.xml" />
 </beans>

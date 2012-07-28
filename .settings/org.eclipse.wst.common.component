@@ -3,7 +3,10 @@
     <wb-module deploy-name="maven_ssh">
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
         <wb-resource deploy-path="/" source-path="/src/main/webapp"/>
-        <property name="context-root" value="/testmaven"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/resources"/>
         <property name="java-output-path" value="/maven_ssh/src/main/webapp/WEB-INF/classes"/>
+        <property name="context-root" value="/maven_ssh"/>
     </wb-module>
 </project-modules>

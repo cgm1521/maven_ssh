@@ -3,7 +3,7 @@
   type="WEB"
   name="maven_ssh"
   id="myeclipse.1343125197683"
-  context-root="/testmaven"
+  context-root="/maven_ssh"
   j2ee-spec="6.0"
   archive="maven_ssh.war">
   <attributes>

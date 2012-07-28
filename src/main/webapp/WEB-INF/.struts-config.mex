@@ -1,2 +1,86 @@
-<FlowViewLayout Version="1.1">
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowViewLayout Version="1.2">
+  <StrutsActivity path="testActionForm" location="350,50" dimension="112,51" />
+  <StrutsActivity path="" location="650,50" dimension="30,51" />
+  <StrutsActivity path="index.jsp" location="950,50" dimension="76,51" />
+  <StrutsActivity path="/test.do" location="50,50" dimension="208,96" />
+  <StrutsActivity path="/userForm.jsp" location="650,250" dimension="103,51" />
+  <StrutsActivity path="/userList.jsp" location="950,250" dimension="93,51" />
+  <StrutsActivity path="/index.jsp" location="50,250" dimension="81,51" />
+  <StrutsActivity path="/" location="350,250" dimension="35,51" />
+  <StrutsTransition id="/test.do,success,index.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="258,116" />
+      <AbsolutePoint location="958,116" />
+      <AbsolutePoint location="958,101" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/user.do,success,index.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="215,250" />
+      <AbsolutePoint location="215,191" />
+      <AbsolutePoint location="988,191" />
+      <AbsolutePoint location="988,101" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="testActionForm,null,test.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="350,75" />
+      <AbsolutePoint location="154,75" />
+      <AbsolutePoint location="154,150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/index.jsp,null,/test.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="60,250" />
+      <AbsolutePoint location="60,146" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/test.do,success,,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="258,116" />
+      <AbsolutePoint location="665,116" />
+      <AbsolutePoint location="665,101" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/user.do,edit,/userForm.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="381,275" />
+      <AbsolutePoint location="650,275" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="testActionForm,null,/test.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="350,75" />
+      <AbsolutePoint location="258,75" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/,null,/test.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="350,275" />
+      <AbsolutePoint location="154,275" />
+      <AbsolutePoint location="154,146" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/test.do,success,/index.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="90,146" />
+      <AbsolutePoint location="90,250" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/user.do,list,/userList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="381,316" />
+      <AbsolutePoint location="996,316" />
+      <AbsolutePoint location="996,301" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="test.do,success,index.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="258,198" />
+      <AbsolutePoint location="988,198" />
+      <AbsolutePoint location="988,101" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
 </FlowViewLayout>
+
